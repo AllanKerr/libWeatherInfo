@@ -1,0 +1,11 @@
+#!/bin/sh
+
+#  postinst
+#  WeatherBoard
+#
+#  Created by Allan Kerr on 2014-10-30.
+#
+
+chown root:wheel /Library/LaunchDaemons/com.theronen.weatherinfod.plist
+launchctl load /Library/LaunchDaemons/com.theronen.weatherinfod.plist
+exit 0

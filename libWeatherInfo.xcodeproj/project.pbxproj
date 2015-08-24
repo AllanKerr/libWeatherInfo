@@ -1,0 +1,186 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		117A35F21B8ACB430015DF4C /* entitlements.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = entitlements.xml; sourceTree = "<group>"; };
+		117A35F31B8ACB430015DF4C /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		117A35F41B8ACB430015DF4C /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		117A37AD1B8ACB440015DF4C /* WBCity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBCity.h; sourceTree = "<group>"; };
+		117A37AE1B8ACB440015DF4C /* WBCity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBCity.m; sourceTree = "<group>"; };
+		117A37AF1B8ACB440015DF4C /* WBInfoService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBInfoService.h; sourceTree = "<group>"; };
+		117A37B01B8ACB440015DF4C /* WBInfoService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBInfoService.m; sourceTree = "<group>"; };
+		117A37B11B8ACB440015DF4C /* WBInfoUpdater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBInfoUpdater.h; sourceTree = "<group>"; };
+		117A37B21B8ACB440015DF4C /* WBInfoUpdater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBInfoUpdater.m; sourceTree = "<group>"; };
+		117A37B31B8ACB440015DF4C /* WBInfoUpdaterDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBInfoUpdaterDelegate.h; sourceTree = "<group>"; };
+		117A37B41B8ACB440015DF4C /* WBInfoWorker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBInfoWorker.h; sourceTree = "<group>"; };
+		117A37B51B8ACB440015DF4C /* WBInfoWorker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBInfoWorker.m; sourceTree = "<group>"; };
+		117A37B61B8ACB440015DF4C /* WBInfoWorkerInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBInfoWorkerInterface.h; sourceTree = "<group>"; };
+		117A37B71B8ACB440015DF4C /* WBWeatherInfoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBWeatherInfoManager.h; sourceTree = "<group>"; };
+		117A37B81B8ACB440015DF4C /* WBWeatherInfoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBWeatherInfoManager.m; sourceTree = "<group>"; };
+		117A37B91B8ACB440015DF4C /* WBWeatherInfoManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBWeatherInfoManagerDelegate.h; sourceTree = "<group>"; };
+		117A37BA1B8ACB440015DF4C /* WBWeatherInfoManagerInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBWeatherInfoManagerInterface.h; sourceTree = "<group>"; };
+		117A37BC1B8AD4060015DF4C /* City.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		117A37BD1B8AD4060015DF4C /* CityUpdaterDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityUpdaterDelegate.h; sourceTree = "<group>"; };
+		117A37BE1B8AD4060015DF4C /* HourlyForecast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HourlyForecast.h; sourceTree = "<group>"; };
+		117A37BF1B8AD4060015DF4C /* DayForecast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DayForecast.h; sourceTree = "<group>"; };
+		117A37C01B8AD4060015DF4C /* WeatherHTTPRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherHTTPRequest.h; sourceTree = "<group>"; };
+		117A37C11B8AD4060015DF4C /* WeatherJSONHTTPRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherJSONHTTPRequest.h; sourceTree = "<group>"; };
+		117A37C21B8AD4060015DF4C /* TWCUpdater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWCUpdater.h; sourceTree = "<group>"; };
+		117A37C31B8AD4060015DF4C /* TWCCityUpdater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWCCityUpdater.h; sourceTree = "<group>"; };
+		117A37C41B8AD4060015DF4C /* TWCLocationUpdater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWCLocationUpdater.h; sourceTree = "<group>"; };
+		117A37C51B8AD4060015DF4C /* TWCValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWCValidator.h; sourceTree = "<group>"; };
+		117A37C61B8AD4060015DF4C /* WeatherIconsUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherIconsUtility.h; sourceTree = "<group>"; };
+		117A37C71B8AD4060015DF4C /* WeatherImageLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherImageLoader.h; sourceTree = "<group>"; };
+		117A37CA1B8AD4760015DF4C /* NSXPCConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSXPCConnection.h; sourceTree = "<group>"; };
+		117A37CB1B8AD4760015DF4C /* NSXPCInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSXPCInterface.h; sourceTree = "<group>"; };
+		117A37CC1B8AD4760015DF4C /* NSXPCListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSXPCListener.h; sourceTree = "<group>"; };
+		117A37CD1B8AD4760015DF4C /* NSXPCListenerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSXPCListenerDelegate.h; sourceTree = "<group>"; };
+		117A37CF1B8AD4BC0015DF4C /* IOKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOKit.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		117A35E81B8ACABC0015DF4C = {
+			isa = PBXGroup;
+			children = (
+				117A35EF1B8ACAFA0015DF4C /* libWeatherInfo */,
+			);
+			sourceTree = "<group>";
+		};
+		117A35EF1B8ACAFA0015DF4C /* libWeatherInfo */ = {
+			isa = PBXGroup;
+			children = (
+				117A37BB1B8AD3DA0015DF4C /* include */,
+				117A35F21B8ACB430015DF4C /* entitlements.xml */,
+				117A35F41B8ACB430015DF4C /* Makefile */,
+				117A37AD1B8ACB440015DF4C /* WBCity.h */,
+				117A37AE1B8ACB440015DF4C /* WBCity.m */,
+				117A37B91B8ACB440015DF4C /* WBWeatherInfoManagerDelegate.h */,
+				117A37BA1B8ACB440015DF4C /* WBWeatherInfoManagerInterface.h */,
+				117A37B71B8ACB440015DF4C /* WBWeatherInfoManager.h */,
+				117A37B81B8ACB440015DF4C /* WBWeatherInfoManager.m */,
+				117A35F11B8ACB350015DF4C /* weatherinfod */,
+			);
+			name = libWeatherInfo;
+			sourceTree = "<group>";
+		};
+		117A35F11B8ACB350015DF4C /* weatherinfod */ = {
+			isa = PBXGroup;
+			children = (
+				117A35F31B8ACB430015DF4C /* main.mm */,
+				117A37AF1B8ACB440015DF4C /* WBInfoService.h */,
+				117A37B01B8ACB440015DF4C /* WBInfoService.m */,
+				117A37B31B8ACB440015DF4C /* WBInfoUpdaterDelegate.h */,
+				117A37B11B8ACB440015DF4C /* WBInfoUpdater.h */,
+				117A37B21B8ACB440015DF4C /* WBInfoUpdater.m */,
+				117A37B61B8ACB440015DF4C /* WBInfoWorkerInterface.h */,
+				117A37B41B8ACB440015DF4C /* WBInfoWorker.h */,
+				117A37B51B8ACB440015DF4C /* WBInfoWorker.m */,
+			);
+			name = weatherinfod;
+			sourceTree = "<group>";
+		};
+		117A37BB1B8AD3DA0015DF4C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				117A37CE1B8AD4B10015DF4C /* IOKit */,
+				117A37C91B8AD4500015DF4C /* Foundation */,
+				117A37C81B8AD44C0015DF4C /* Weather */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		117A37C81B8AD44C0015DF4C /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				117A37BC1B8AD4060015DF4C /* City.h */,
+				117A37BD1B8AD4060015DF4C /* CityUpdaterDelegate.h */,
+				117A37BE1B8AD4060015DF4C /* HourlyForecast.h */,
+				117A37BF1B8AD4060015DF4C /* DayForecast.h */,
+				117A37C01B8AD4060015DF4C /* WeatherHTTPRequest.h */,
+				117A37C11B8AD4060015DF4C /* WeatherJSONHTTPRequest.h */,
+				117A37C21B8AD4060015DF4C /* TWCUpdater.h */,
+				117A37C31B8AD4060015DF4C /* TWCCityUpdater.h */,
+				117A37C41B8AD4060015DF4C /* TWCLocationUpdater.h */,
+				117A37C51B8AD4060015DF4C /* TWCValidator.h */,
+				117A37C61B8AD4060015DF4C /* WeatherIconsUtility.h */,
+				117A37C71B8AD4060015DF4C /* WeatherImageLoader.h */,
+			);
+			name = Weather;
+			sourceTree = "<group>";
+		};
+		117A37C91B8AD4500015DF4C /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				117A37CA1B8AD4760015DF4C /* NSXPCConnection.h */,
+				117A37CB1B8AD4760015DF4C /* NSXPCInterface.h */,
+				117A37CC1B8AD4760015DF4C /* NSXPCListener.h */,
+				117A37CD1B8AD4760015DF4C /* NSXPCListenerDelegate.h */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		117A37CE1B8AD4B10015DF4C /* IOKit */ = {
+			isa = PBXGroup;
+			children = (
+				117A37CF1B8AD4BC0015DF4C /* IOKit.h */,
+			);
+			name = IOKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		117A35E91B8ACABC0015DF4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 117A35EC1B8ACABC0015DF4C /* Build configuration list for PBXProject "libWeatherInfo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 117A35E81B8ACABC0015DF4C;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		117A35ED1B8ACABC0015DF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		117A35EE1B8ACABC0015DF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		117A35EC1B8ACABC0015DF4C /* Build configuration list for PBXProject "libWeatherInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				117A35ED1B8ACABC0015DF4C /* Debug */,
+				117A35EE1B8ACABC0015DF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 117A35E91B8ACABC0015DF4C /* Project object */;
+}

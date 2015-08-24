@@ -24,3 +24,14 @@ DerivedData
 # http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
 #
 #Pods/
+
+.DS_Store
+._*
+.theos
+theos
+theos/
+_/
+obj/
+*.deb
+xcuserdata
+*.xcuserstate
