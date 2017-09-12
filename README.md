@@ -19,7 +19,7 @@ Any required private framework headers can be found in the /include directory.
 # Usage:
 
 WBWeatherInfoManager is directly based off of CLLocationManager. If you are familiar with CLLocationManager you are already familiar with WBWeatherInfoManager.
-```
+```Objective-C
 #import "WBWeatherInfoManager.h"
 
 @interface MyDelegateClass : NSObject <WBWeatherInfoManagerDelegate>
